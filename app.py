@@ -23,7 +23,7 @@ try:
 except Exception as e:
     print(f"API Key set karne mein ghalti: {e}")
 
-model = genai.GenerativeModel('gemini-pro')
+model = genai.GenerativeModel('gemini-1.5-flash')
 app = Flask(__name__)
 
 # ==============================================================================
